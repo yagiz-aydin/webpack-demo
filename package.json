@@ -1,0 +1,28 @@
+{
+    "name": "webpack-demo",
+    "main": "index.js",
+    "scripts": {
+        "start": "webpack-dev-server"
+    },
+    "devDependencies": {
+        "@babel/core": "^7.7.4",
+        "@babel/preset-env": "^7.7.4",
+        "@babel/preset-react": "^7.7.4",
+        "babel-cli": "^6.26.0",
+        "babel-loader": "^8.0.6",
+        "@emotion/react": "^11.9.0",
+        "@emotion/styled": "^11.8.1",
+        "html-webpack-plugin": "^5.5.0",
+        "mini-css-extract-plugin": "^2.6.0",
+        "postcss-loader": "^7.0.0",
+        "css-loader": "^6.7.1",
+        "react-transform-hmr": "^1.0.4",
+        "webpack": "^5.72.1",
+        "webpack-cli": "^4.9.2",
+        "webpack-dev-server": "^4.9.0"
+    },
+    "dependencies": {
+        "react": "^18.1.0",
+        "react-dom": "^18.1.0"
+    }
+}
